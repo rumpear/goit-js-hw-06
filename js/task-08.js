@@ -2,24 +2,6 @@ const loginFormRef = document.querySelector('.login-form');
 
 loginFormRef.addEventListener('submit', onFormSubmit);
 
-// function onFormSubmit(event) {
-//   event.preventDefault();
-
-//   const {
-//     elements: { email, password },
-//   } = event.currentTarget;
-
-//   const formData = {
-//     email,
-//     password,
-//   };
-
-//   console.log(formData.email.value, formData.password.value);
-// }
-
-// console.log(loginFormRef);
-
-// * alert
 function onFormSubmit(event) {
   event.preventDefault();
 
