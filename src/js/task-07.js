@@ -4,5 +4,5 @@ const textSpan = document.querySelector('#text');
 inputFontSizeControl.addEventListener('input', onInputFontSizeChange);
 
 function onInputFontSizeChange(event) {
-  textSpan.style.fontSize = event.currentTarget.value + 'px';
+  textSpan.style.fontSize = `${event.currentTarget.value}px`;
 }
