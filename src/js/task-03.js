@@ -22,11 +22,3 @@ const markup = images.map(
 );
 console.log(markup);
 galleryRef.insertAdjacentHTML('afterbegin', markup);
-
-// for (const img of images) {
-//   console.log(img);
-//   console.log(img.url);
-//   console.log(img.alt);
-//   img.url;
-//   img.alt;
-// }
